@@ -1,0 +1,19 @@
+radrs 12
+wadrs 5
+trans
+
+setif 0
+doif 5
+
+wadrs 3
+wl 15
+0:
+
+wadrs 0
+radrs 5
+trans
+!
+setif 1
+
+
+
