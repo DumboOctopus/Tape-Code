@@ -41,6 +41,20 @@ File types that this program process:
     }
     setOutput1(x);
     setOutput2(x + 1);
+    if(x == 0)
+    {
+    	var y = 0;
+    	if(y == 9)
+    	{
+    		setOutput2(y + (x - 1));
+    	}
+    }
+    while(x)
+    {
+    	setOutput1(x);
+    	x ++;
+    }
+    
     
     
 
