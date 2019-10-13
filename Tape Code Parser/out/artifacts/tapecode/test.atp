@@ -2,6 +2,11 @@ radrs 12
 wadrs 5
 trans
 
+radrs 1 23 invalid
+trans 1 invalid
+radrs first
+
+
 setif 0
 doif 5
 

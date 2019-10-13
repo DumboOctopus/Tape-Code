@@ -103,6 +103,9 @@ public class Parser{
                     else {
                         if (currCommand.getCommandType() == CommandType.CMD_NUM) {
                             //cmd number
+                            if(arr.length > 2){
+                                showError(lineNumber, line, currCommand.getAssembyName() + " only accepts one argument.");
+                            }
                             try {
                                 int rawNumber = Integer.parseInt(arr[1]);
                                 if (rawNumber < 0 || rawNumber > 15)
@@ -113,10 +116,12 @@ public class Parser{
                             } catch (ArrayIndexOutOfBoundsException ae) {
                                 showError(lineNumber, line, arr[0] + " requires a valid integer argument");
                             } catch(NumberFormatException ne) {
-                                showError(lineNumber, line, "\'"+arr[1] + "\' is not a vallid integer argument. Be sure only 1 space is between the command and its argument");
+                                showError(lineNumber, line, "\'"+arr[1] + "\' is not a valid integer argument.");
                             }
                         } else {
-
+                            if(arr.length > 1){
+                                showError(lineNumber, line, currCommand.getAssembyName() + " does not accept arguments.");
+                            }
                             builder.append("1" + currCommand.getBinCode() + "0000");
                         }
                     }

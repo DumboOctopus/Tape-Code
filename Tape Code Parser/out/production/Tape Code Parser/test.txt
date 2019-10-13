@@ -1,9 +1,0 @@
-setAddressWrite 0
-literalWrite 12
-   
-       
-
-
- 
-
-

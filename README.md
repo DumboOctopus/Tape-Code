@@ -3,7 +3,7 @@ Its an assembly language parser for this tapecode computer my friend (Skye Bedar
 
 About the computer: 
   1. It has 16 memory cells of 4 bit size. 
-  2. It has a simple alu that can do addition, subtraction, bitwise and, bitwise or, bitwise xnor
+  2. It has a simple alu that can do addition, subtraction, bitwise and, bitwise or, bitwise xnor. 
   the first 2 alu operation memory cell. when an alu operation is done, it operates on these 2 memory cells. The only issue is how the alu output pin is read, we have not decided on a command for that. 
 
 ## File types:
@@ -36,6 +36,34 @@ goto 1:
 .
 100100000
 ```
+
+Additionally, the parser has friendly error messages that end with a :(.
+
+```
+radrs 12
+wadrs 5
+trans
+
+radrs 1 23 invalid
+trans 1 invalid
+radrs first
+```
+
+would produce these errors when compiled
+
+```
+Error occured at line 4
+        code was: radrs 1 23 invalid
+        radrs only accepts one argument.
+Error occured at line 5
+        code was: trans 1 invalid
+        trans does not accept arguments.
+Error occured at line 6
+        code was: radrs first
+        'first' is not a valid integer argument.
+build unsucessful :(
+```
+
 `.ctp`: CTP is the most readable of all of them. It similar to c. So far, it is not finished yet (currently debuging expression parsing and making friendlier error messages)
 
  ```
