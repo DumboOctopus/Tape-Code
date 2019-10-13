@@ -7,30 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f342255-b716-4baa-aa89-de03eb8abc26" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/Tape-Code.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/tapecode/tapecode.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tapecode/tapecode.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/tapecode/test.atp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/tapecode/test.atp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/Command.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/Command.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/CommandType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/CommandType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/Option.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/Option.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/Parser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/Parser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/a.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/InvalidMemoryAddressException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/InvalidMemoryAddressException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/MemoryStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/MemoryStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/NoSuchVariableException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/NoSuchVariableException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/OutOfMemoryException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/OutOfMemoryException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/Variable.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/Variable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/Expression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/Expression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/ExpressionOperator$ExpressionOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/ExpressionOperator$ExpressionOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/ExpressionOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/ExpressionOperator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/LiteralExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/LiteralExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/VariableExpression.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/exprs/VariableExpression.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/test/TestMemoryStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/ctpparser/test/TestMemoryStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tape Code Parser/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tape Code Parser/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Parser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Parser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ctpparser/test/TestMemoryStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ctpparser/test/TestMemoryStack.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Parser">
+  <component name="RunManager" selected="Application.TestMemoryStack">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -291,8 +272,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Parser" />
         <item itemvalue="Application.TestMemoryStack" />
+        <item itemvalue="Application.Parser" />
       </list>
     </recent_temporary>
   </component>
@@ -306,7 +287,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1464824916748</updated>
-      <workItem from="1570945096691" duration="1230000" />
+      <workItem from="1570945096691" duration="2701000" />
     </task>
     <servers />
   </component>

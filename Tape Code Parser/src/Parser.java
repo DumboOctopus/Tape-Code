@@ -154,10 +154,10 @@ public class Parser{
 
     public static void parseCTPFile(File f) throws FileNotFoundException,IOException
     {
-        //EXTREMMELY COMPLEX THING
-        //TODO wait on how alu pin is read so i can construct expressions
+        //special cells ALU 1, ALU 2, GPIO 1, GPIO 2
         MemoryStack.createStack(16, 4);
         Variable.setUp();
+
 
     }
 

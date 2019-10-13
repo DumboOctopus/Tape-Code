@@ -16,7 +16,7 @@ public class TestMemoryStack {
             System.out.println(MemoryStack.allocate());
             System.out.println(MemoryStack.allocate());
             System.out.println(MemoryStack.allocate());
-            MemoryStack.free(7);
+            MemoryStack.free(4);
             System.out.println(MemoryStack.allocate());
         } catch (Exception e) {
             e.printStackTrace();
